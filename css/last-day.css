@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1b834f;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.wrp {
+    height: 100vh;
+    width: 100%;
+}
+
+.wrp svg {
+    height: 100%;
+    width: 100%;
+}
+
+.wrp svg * {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+.wrp svg .swet,
+.wrp svg .debre,
+.wrp svg .flash,
+.wrp svg #paper1 {
+    opacity: 0;
+}
